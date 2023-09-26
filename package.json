@@ -1,0 +1,52 @@
+{
+  "name": "react-sale-countdown",
+  "version": "1.0.0",
+  "description": "Countdown card package by Pankaj: Sales and giveaways made stylish.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rimraf dist",
+    "build": "cross-env NODE_ENV=production babel src --out-dir dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifeelpankaj/giveaway-card.git"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "React",
+    "Countdown",
+    "Timer",
+    "Card",
+    "Sale",
+    "Giveaway",
+    "Stylish",
+    "Responsive",
+    "Customizable",
+    "Event"
+  ],
+  "author": "Pankaj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifeelpankaj/giveaway-card/issues"
+  },
+  "homepage": "https://github.com/ifeelpankaj/giveaway-card#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-react": "^7.22.15",
+    "core-js": "^3.32.2",
+    "cross-env": "^7.0.3",
+    "regenerator-runtime": "^0.14.0",
+    "rimraf": "^5.0.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20"
+  }
+}
