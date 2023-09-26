@@ -1,4 +1,4 @@
-### React Countdown Card
+### React Sale Countdown 
 
 ![npm](https://img.shields.io/npm/v/react-sale-countdown)
 ![npm](https://img.shields.io/npm/dt/react-countdown-card)
