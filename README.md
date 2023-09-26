@@ -1,5 +1,3 @@
-**[react-sale-countdown](https://github.com/Myself-Pankaj/react-sale-countdown.git)**
-
 ### React Countdown Card
 
 ![npm](https://img.shields.io/npm/v/react-sale-countdown)
@@ -36,7 +34,7 @@ import {CountdownCardKit} from 'react-countdown-card';
 
 function App() {
     const imageUrl ="https://t.ly/WIQhD";
-    const endDate = "Sunday 01 October 2023, 17:00 AM";
+    const endDate = "Sunday 01 October 2023, 12:00 AM";
     const title = "Fossil watch Give away";
     const description = "This is a giveaway of Fossil Watch";
   return (
@@ -58,7 +56,7 @@ export default App;
 ### Props
 
 - `imageUrl`: URL of the image to display in the card.
-- `endDate`: Date and time when the countdown should end (in ISO format).
+- `endDate`: Date and time when the countdown should end (in 12hrs format).
 - `title`: Title for the card.
 - `description`: Description or message for the card.
 
