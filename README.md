@@ -1,8 +1,8 @@
 ### React Countdown Card
 
 ![npm](https://img.shields.io/npm/v/react-sale-countdown)
-![npm](https://img.shields.io/npm/dt/react-sale-countdown)
-![GitHub](https://img.shields.io/github/license/Myself-Pankaj/react-countdown-card)
+![npm](https://img.shields.io/npm/dt/react-countdown-card)
+![GitHub](https://img.shields.io/github/license/Myself-Pankaj/react-sale-countdown)
 
 ### DEMO
 
